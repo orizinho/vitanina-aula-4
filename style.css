@@ -155,14 +155,14 @@ img {width:150px;
 
 
 
-.vitanina-menu ul {
+.dp-menu ul {
     list-style-type: none;
     padding-right: 80px;
     text-align: center;
     
 }
 
-.vitanina-menu {
+.dp-menu {
     font-size: 110%;
     
     text-align: center;
@@ -172,13 +172,13 @@ img {width:150px;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 20px;}
     
-.vitanina-menu ul {
+.dp-menu ul {
     
     
     background-color: #F2542D;
 }
 
-.vitanina-menu ul li {
+.dp-menu ul li {
     display: inline;
     position: relative;
 }
@@ -191,26 +191,26 @@ img {width:150px;
     transition: background .3s;
 }
 
-.vitanina-menu ul li a:hover {
+.dp-menu ul li a:hover {
     background-color:#f4a261;
 }
 
 
-.vitanina-menu ul ul {
+.dp-menu ul ul {
     display: none;
     left: 0;
     position: absolute;
 }
 
-.vitanina-menu ul li:hover ul {
+.dp-menu ul li:hover ul {
     display: block;
 }
 
-.vitanina-menu ul ul {
+.dp-menu ul ul {
     width: 150px
 }
 
-.vitanina-menu ul ul li a {
+.dp-menu ul ul li a {
     display: block;
 }
 
