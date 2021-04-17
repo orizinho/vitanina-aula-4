@@ -145,3 +145,72 @@ img {width:150px;
 #lactoses {
     width: 600px;
     height: 300px;}
+
+
+
+
+
+
+
+
+
+
+.vitanina-menu ul {
+    list-style-type: none;
+    padding-right: 80px;
+    text-align: center;
+    
+}
+
+.vitanina-menu {
+    font-size: 110%;
+    
+    text-align: center;
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;}
+    
+.vitanina-menu ul {
+    
+    
+    background-color: #F2542D;
+}
+
+.vitanina-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+   color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.vitanina-menu ul li a:hover {
+    background-color:#f4a261;
+}
+
+
+.vitanina-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.vitanina-menu ul li:hover ul {
+    display: block;
+}
+
+.vitanina-menu ul ul {
+    width: 150px
+}
+
+.vitanina-menu ul ul li a {
+    display: block;
+}
+
